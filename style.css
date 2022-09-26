@@ -1,0 +1,399 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Hide scrollbar  */
+
+body::-webkit-scrollbar {
+    display: none; 
+  }
+
+/* Hero */
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, 
+                    rgba(0,0,0,0.4) 0%, 
+                    rgba(0,0,0,0.98)
+                    ), url(https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1, p {
+    text-align: center;
+}
+
+.hero h1 {
+    padding-top: 170px;
+    font-size: 90px;
+    color: white;
+    font-weight: 400;
+    max-width: 100%;
+}
+
+.hero p {
+    padding-top: 18px;
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+/* Navigation Bar */
+
+nav {
+    padding: 50px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #A7D2CB;
+    transition-duration: .4s;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+}
+
+/* Explore Page */
+
+.explore {
+    background-color: black
+}
+
+.explore h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+.explore p {
+    color: #D3D3D3;
+    padding-top: 20px;
+    padding-right: 510px;
+    padding-left: 510px;
+    text-align: center;
+    align-content: center;
+    font-weight: 100;
+    
+}
+
+/* Explore Cards */
+
+#explorecards {
+    display: flex;
+    padding-top: 70px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+#explorecards .card1, .card2, .card3 {
+    flex-basis: 50%;
+    height: 450px;
+    margin-inline: 20px;
+    flex-grow: 0;
+}
+
+
+/* Shinjuku Card */
+.card1 {
+    background-image: linear-gradient(180deg, 
+                    rgba(0,0,0,0.4) 0%, 
+                    rgba(0,0,0,0.4)
+    ),              url(https://images.unsplash.com/photo-1554797589-7241bb691973?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Mt. Fuji Card */
+.card2 {
+    background-image: linear-gradient(180deg, 
+                    rgba(0,0,0,0.4) 0%, 
+                    rgba(0,0,0,0.4)
+),                    url(https://images.unsplash.com/photo-1570459027562-4a916cc6113f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Yasaka Shrine */
+.card3 {
+    background-image: linear-gradient(180deg, 
+                    rgba(0,0,0,0.4) 0%, 
+                    rgba(0,0,0,0.4)
+),                    url(https://images.unsplash.com/photo-1493997181344-712f2f19d87a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Text within Cards */
+
+#explorecards h1 {
+    padding-top: 330px;
+    font-size: 28px;
+}
+
+#explorecards h2 {
+    text-align: center;
+    color: #d3d3d3;
+    font-weight: 200;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+
+/* Explore Link */
+.seecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.explore a {
+    text-align: center;
+    text-decoration: none;
+    color: #CC704B;
+}
+
+.explore a:hover {
+    color: #E8C07D;
+    transition-duration: .5s;
+}
+
+.explore a:active {
+    color: #CC704B;
+}
+
+.explore a:visited {
+    text-decoration: none;
+}
+
+/* Journal section */
+#journal {
+    background-color: black;
+}
+
+/* journal headers */
+#journal h1 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: 300;
+}
+
+
+#journal p {
+    color: #D3D3D3;
+    padding-top: 20px;
+    padding-right: 510px;
+    padding-left: 510px;
+    text-align: center;
+    align-content: center;
+    font-weight: 100;
+}
+
+/* Journal Cards */
+.journalcards {
+    display: flex;
+    padding-top: 60px;
+    padding-right: 105px;
+    padding-left: 105px;
+    padding-bottom: 0px;
+}
+
+.journalcards .card4, .card5 {
+    flex-basis: 50%;
+    height: 320px;
+    margin-inline: 20px;
+    flex-grow: 0;
+}
+
+.card4 {
+    background-image: linear-gradient(180deg, 
+                    rgba(0,0,0,0.2) 0%, 
+                    rgba(0,0,0,0.2)
+),                    url(https://images.unsplash.com/photo-1614301246509-d1fc7d78b6b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+.card5 {
+    background-image: linear-gradient(180deg, 
+    rgba(0,0,0,0.2) 0%, 
+    rgba(0,0,0,0.2)
+),                    url(https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1684&q=80);
+background-size: cover;
+background-position: center;
+}
+
+/* Journal Card text */
+.text {
+    display: flex;
+    flex-basis: 50%;
+    flex-grow: 0;
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.text4, .text5 {
+    color: white;
+    flex-basis: 50%;
+    overflow: hidden;
+    margin-inline: 20px;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* date */
+.text h6 {
+    font-weight: 100;
+    font-size: 13px;
+}
+
+/* description */
+.text h5 {
+    font-weight: 100;
+    font-size: 13px;
+    padding-top: 22px;
+    flex-wrap: wrap;
+}
+
+/* title */
+.text h3 {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+/* All posts > link */
+.seecontainer2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.seecontainer2 a {
+    text-align: center;
+    text-decoration: none;
+    color: #CC704B;
+}
+
+.seecontainer2 a:hover {
+    color: #E8C07D;
+    transition-duration: .5s;
+}
+
+.seecontainer2 a:active {
+    color: #CC704B;
+}
+
+.seecontainer2 a:visited {
+    text-decoration: none;
+}
+
+/* ending page pic */
+#ending {
+    height: 550px;
+    width: 100%;
+    background-image: linear-gradient(180deg, 
+                    rgba(0,0,0,1) 0%, 
+                    rgba(0,0,0,0.2)
+                    ), url(https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+/* footer */
+.foot {
+    background-color: black;
+    height: 160px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: white;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-left: 80px;
+    box-sizing: border-box;
+    grid-row-gap: 20px;
+    grid-column-gap: 350px;
+    justify-content: center;
+}
+
+.foot p {
+    text-align: left;
+    font-weight: 200;
+    padding-top: 5px;
+}
+
+.foot h1 {
+    font-weight: 200;
+    font-size: 13px;
+    color: #787878;
+}
+
+
+#link a {
+    display: block;
+    text-decoration: none;
+    padding-top: 5px;
+    color: white;
+    font-weight: 200;
+}
+
+#link a:hover {
+    text-decoration: none;
+    color: #A7D2CB;
+    transition-duration: .4s;
+}
+
+#cus a {
+    text-decoration: none;
+    color: white;
+}
+
+#cus a:hover {
+    text-decoration: none;
+    color: #A7D2CB;
+    transition-duration: .4s;
+}
+
+/* footer rights */
+.rights {
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    font-size: 10px;
+}
+
+
+    
