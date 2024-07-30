@@ -1,7 +1,5 @@
 # nyam
 
-Yahoo everyone
-
 This is my second project with html and css. However, this website is much more developed and advanced compared to my first project.
 
 I referenced a website on pinterest and made it entirely on my own, adapting to my own style and theme as well. 
